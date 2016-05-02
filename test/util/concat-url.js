@@ -23,5 +23,18 @@ describe('util/concat-url', function() {
       (url.length < 1600).should.be.true();
     }
   });
+
+
+  it('for coverage', function() {
+    const url = 'a.js';
+    const times = Math.floor(1500 / (url.length + 1)) + 1;
+    const list = [];
+    for (let i = 0; i < times; i++) {
+      list.push(url);
+    }
+    const prefix = 'http://assets??';
+    const urls = concatUrl(prefix, list);
+    urls.length.should.equal(1);
+  });
 });
 
