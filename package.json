@@ -31,7 +31,9 @@
     "eslint-config-bce": "~1.2.0",
     "istanbul": "~0.4.1",
     "mocha": "~2.4.5",
-    "should": "~8.3.1"
+    "plover": "~2.0.2",
+    "should": "~8.3.1",
+    "supertest": "~1.2.0"
   },
   "plover": {
     "plugin": "lib/plugin.js"
