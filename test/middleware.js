@@ -15,7 +15,6 @@ const handler = require('../lib/handler');
 describe('middleware', function() {
   const root = pathUtil.join(__dirname, './fixtures/app');
   const app = plover({ applicationRoot: root });
-  app.addMiddleware(middleware);
 
   app.addMiddleware(function* () {
     this.body = 'ok';
