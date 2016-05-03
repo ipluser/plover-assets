@@ -59,7 +59,7 @@ describe('middleware', function() {
 
 
   it('concat assets', function() {
-    return agent.get('/g/??index.html,index/js/a.js,index/js/b.js,index/css/test.css,not-found.js')
+    return agent.get('/g/??index.html,index/js/a.js,index/js/b.js,index/css/test.css,not-found.js')   // eslint-disable-line
         .expect('Hello World\n\nvar a = 1;\n\nvar b = 2;\n\ncompiled: body: {}\n\n');
   });
 
