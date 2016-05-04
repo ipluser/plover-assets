@@ -15,6 +15,7 @@
     "build-plover-assets": "bin/build.js"
   },
   "files": [
+    "bin",
     "lib"
   ],
   "dependencies": {
