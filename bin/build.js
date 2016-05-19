@@ -11,7 +11,7 @@ const co = require('co');
 const Builder = require('../lib/builder');
 
 
-/* eslint no-console: 0, no-process-exit: 0 */
+/* eslint no-console: 0, no-process-exit: 0, no-process-env: 0 */
 
 
 module.exports = build;
@@ -46,6 +46,9 @@ function loadSettings(root) {
 
 /* istanbul ignore next */
 if (require.main === module) {
+  // 标识编译过程，可在配置中使用
+  process.env.PLOVER_ASSETS_BUILD = 'true';
+
   const program = require('commander');
   program
     .version(require('../package.json').version)
