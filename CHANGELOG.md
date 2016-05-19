@@ -1,3 +1,13 @@
+<a name="2.0.4"></a>
+## [2.0.4](https://github.com/plover-modules/plover-assets/compare/v2.0.3...v2.0.4) (2016-05-19)
+
+
+### Features
+
+* 添加环境变量PLOVER_ASSETS_BUILD=true用于标识编译阶段 ([b834199](https://github.com/plover-modules/plover-assets/commit/b834199))
+
+
+
 <a name="2.0.3"></a>
 ## [2.0.3](https://github.com/plover-modules/plover-assets/compare/v2.0.2...v2.0.3) (2016-05-09)
 
