@@ -1,6 +1,6 @@
 {
   "name": "plover-assets",
-  "version": "2.0.4",
+  "version": "2.1.0",
   "description": "plover assets helper and middleware",
   "main": "lib/index",
   "scripts": {

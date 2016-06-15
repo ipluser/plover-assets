@@ -1,3 +1,14 @@
+<a name="2.1.0"></a>
+# [2.1.0](https://github.com/plover-modules/plover-assets/compare/v2.0.4...v2.1.0) (2016-06-15)
+
+
+### Features
+
+* use hash for stamp ([23f7397](https://github.com/plover-modules/plover-assets/commit/23f7397))
+* 优化url的产生 ([5233471](https://github.com/plover-modules/plover-assets/commit/5233471))
+
+
+
 <a name="2.0.4"></a>
 ## [2.0.4](https://github.com/plover-modules/plover-assets/compare/v2.0.3...v2.0.4) (2016-05-19)
 
